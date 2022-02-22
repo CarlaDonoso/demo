@@ -1,0 +1,46 @@
+body{
+    background-image: url(https://www.wallpapertip.com/wmimgs/3-30660_photo-wallpaper-abstract-wallpaper-blue-neon-numbers-code.jpg);
+    font-family: verdana;
+    color: aliceblue;
+}
+
+nav{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.nav__li{
+    display: inline;
+    justify-content: space-around 50px;
+}
+
+nav ul li{
+    padding-block-start: 15px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.logo{
+    position: relative;
+    left: 800px;
+}
+
+footer section{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+footer {
+    display: flex;
+align-items: flex-end;
+margin: 0 auto;
+padding: 0 auto;
+color: orange;
+}
